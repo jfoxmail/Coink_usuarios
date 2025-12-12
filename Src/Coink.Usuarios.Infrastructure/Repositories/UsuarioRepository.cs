@@ -2,7 +2,9 @@
 using Coink.Usuarios.Domain.Entities;
 using Coink.Usuarios.Infrastructure.Persistence;
 using Dapper;
+using System.Collections.Generic;
 using System.Data;
+using System.Threading.Tasks;
 
 namespace Coink.Usuarios.Infrastructure.Repositories
 {
@@ -27,12 +29,30 @@ namespace Coink.Usuarios.Infrastructure.Repositories
             parameters.Add("p_municipio_id", usuario.MunicipioId);
             parameters.Add("p_direccion", usuario.Direccion);
 
-            var result = await connection.ExecuteScalarAsync<int>(
+            return await connection.ExecuteScalarAsync<int>(
                 "usuarios.sp_registrar_usuario",
                 parameters,
                 commandType: CommandType.StoredProcedure);
+        }
 
-            return result;
+        public async Task<Usuario> ConsultarAsync(int idUsuario)
+        {
+            using var connection = _db.CreateConnection();
+
+            var sql = @"SELECT * FROM usuarios.usuario WHERE id_usuario = @IdUsuario";
+
+            return await connection.QueryFirstOrDefaultAsync<Usuario>(
+                sql, new { IdUsuario = idUsuario });
+        }
+
+        public async Task<List<Usuario>> ListarAsync()
+        {
+            using var connection = _db.CreateConnection();
+
+            var sql = @"SELECT * FROM usuarios.usuario";
+
+            var result = await connection.QueryAsync<Usuario>(sql);
+            return result.AsList();
         }
     }
 }
