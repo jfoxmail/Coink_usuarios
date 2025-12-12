@@ -1,0 +1,309 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{73B74823-4D4C-4E2F-B804-739FEA49F068}|Test\\Coink.Usuarios.Test\\Coink.Usuarios.Test.csproj|d:\\desarrollo\\coink\\coink.usuarios\\test\\coink.usuarios.test\\coink.usuarios.api\\usuarioscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B74823-4D4C-4E2F-B804-739FEA49F068}|Test\\Coink.Usuarios.Test\\Coink.Usuarios.Test.csproj|solutionrelative:test\\coink.usuarios.test\\coink.usuarios.api\\usuarioscontrollertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73B74823-4D4C-4E2F-B804-739FEA49F068}|Test\\Coink.Usuarios.Test\\Coink.Usuarios.Test.csproj|d:\\desarrollo\\coink\\coink.usuarios\\test\\coink.usuarios.test\\coink.usuarios.application\\registerusercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{73B74823-4D4C-4E2F-B804-739FEA49F068}|Test\\Coink.Usuarios.Test\\Coink.Usuarios.Test.csproj|solutionrelative:test\\coink.usuarios.test\\coink.usuarios.application\\registerusercommandhandlertests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.application\\usecases\\command\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|solutionrelative:src\\coink.usuarios.application\\usecases\\command\\registerusercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|solutionrelative:src\\coink.usuarios.infrastructure\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.api\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|solutionrelative:src\\coink.usuarios.api\\usuarioscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.application\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|solutionrelative:src\\coink.usuarios.application\\common\\apiresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.application\\usecases\\command\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|solutionrelative:src\\coink.usuarios.application\\usecases\\command\\registerusercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|solutionrelative:src\\coink.usuarios.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.application\\usecases\\command\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|solutionrelative:src\\coink.usuarios.application\\usecases\\command\\registerusercommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.infrastructure\\repositories\\parametrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|solutionrelative:src\\coink.usuarios.infrastructure\\repositories\\parametrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.application\\interfaces\\iparametrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|solutionrelative:src\\coink.usuarios.application\\interfaces\\iparametrosrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|solutionrelative:src\\coink.usuarios.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.infrastructure\\persistence\\dapperconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|solutionrelative:src\\coink.usuarios.infrastructure\\persistence\\dapperconnectionfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.infrastructure\\persistence\\databaseoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{66780EAA-3FE7-415B-8057-FE707BBF770E}|Src\\Coink.Usuarios.Infrastructure\\Coink.Usuarios.Infrastructure.csproj|solutionrelative:src\\coink.usuarios.infrastructure\\persistence\\databaseoptions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AB242C68-4F22-4529-AA54-1F7C22930628}|Src\\Coink.Usuarios.Domain\\Coink.Usuarios.Domain.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AB242C68-4F22-4529-AA54-1F7C22930628}|Src\\Coink.Usuarios.Domain\\Coink.Usuarios.Domain.csproj|solutionrelative:src\\coink.usuarios.domain\\entities\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|solutionrelative:src\\coink.usuarios.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.application\\coink.usuarios.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{DD94E35E-AE36-48F2-9DA7-0BF4C8CBAE22}|Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj|solutionrelative:src\\coink.usuarios.application\\coink.usuarios.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|d:\\desarrollo\\coink\\coink.usuarios\\src\\coink.usuarios.api\\coink.usuarios.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A429770F-2614-4693-96E8-B0FDBCF2732B}|Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj|solutionrelative:src\\coink.usuarios.api\\coink.usuarios.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UsuariosControllerTests.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Test\\Coink.Usuarios.Test\\Coink.Usuarios.Api\\UsuariosControllerTests.cs",
+              "RelativeDocumentMoniker": "Test\\Coink.Usuarios.Test\\Coink.Usuarios.Api\\UsuariosControllerTests.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Test\\Coink.Usuarios.Test\\Coink.Usuarios.Api\\UsuariosControllerTests.cs",
+              "RelativeToolTip": "Test\\Coink.Usuarios.Test\\Coink.Usuarios.Api\\UsuariosControllerTests.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAqwDMAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T02:16:52.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RegisterUserCommandHandlerTests.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Test\\Coink.Usuarios.Test\\Coink.Usuarios.Application\\RegisterUserCommandHandlerTests.cs",
+              "RelativeDocumentMoniker": "Test\\Coink.Usuarios.Test\\Coink.Usuarios.Application\\RegisterUserCommandHandlerTests.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Test\\Coink.Usuarios.Test\\Coink.Usuarios.Application\\RegisterUserCommandHandlerTests.cs",
+              "RelativeToolTip": "Test\\Coink.Usuarios.Test\\Coink.Usuarios.Application\\RegisterUserCommandHandlerTests.cs",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAEcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-12T02:11:37.906Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApiResponse.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\Common\\ApiResponse.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Application\\Common\\ApiResponse.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\Common\\ApiResponse.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Application\\Common\\ApiResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T23:22:04.063Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ParametrosRepository.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Repositories\\ParametrosRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Infrastructure\\Repositories\\ParametrosRepository.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Repositories\\ParametrosRepository.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Infrastructure\\Repositories\\ParametrosRepository.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAADwvz8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:54:49.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "IParametrosRepository.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\Interfaces\\IParametrosRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Application\\Interfaces\\IParametrosRepository.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\Interfaces\\IParametrosRepository.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Application\\Interfaces\\IParametrosRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:52:03.457Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "RegisterUserCommandValidator.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandValidator.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandValidator.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandValidator.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandValidator.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAkwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T22:48:49.057Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DapperConnectionFactory.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Persistence\\DapperConnectionFactory.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Infrastructure\\Persistence\\DapperConnectionFactory.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Persistence\\DapperConnectionFactory.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Infrastructure\\Persistence\\DapperConnectionFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:42:36.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DatabaseOptions.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Persistence\\DatabaseOptions.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Infrastructure\\Persistence\\DatabaseOptions.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Persistence\\DatabaseOptions.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Infrastructure\\Persistence\\DatabaseOptions.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:41:31.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\appsettings.json",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.API\\appsettings.json",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\appsettings.json",
+              "RelativeToolTip": "Src\\Coink.Usuarios.API\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T19:40:07.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Infrastructure\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAgwB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:26:04.905Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Domain\\Entities\\Usuario.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Domain\\Entities\\Usuario.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Domain\\Entities\\Usuario.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Domain\\Entities\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:24:51.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "RegisterUserCommandHandler.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandHandler.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandHandler.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandHandler.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommandHandler.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAkwC8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T19:21:09.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.API\\Properties\\launchSettings.json",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Src\\Coink.Usuarios.API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-12-11T17:38:03.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\Program.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.API\\Program.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\Program.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.API\\Program.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T17:09:45.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUserCommand.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommand.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommand.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommand.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Application\\UseCases\\Command\\RegisterUserCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T16:49:02.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Coink.Usuarios.Application.csproj",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj",
+              "RelativeToolTip": "Src\\Coink.Usuarios.Application\\Coink.Usuarios.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T16:45:51.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Coink.Usuarios.API.csproj",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj",
+              "RelativeToolTip": "Src\\Coink.Usuarios.API\\Coink.Usuarios.API.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-12-11T16:36:46.471Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UsuariosController.cs",
+              "DocumentMoniker": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\UsuariosController.cs",
+              "RelativeDocumentMoniker": "Src\\Coink.Usuarios.API\\UsuariosController.cs",
+              "ToolTip": "D:\\Desarrollo\\Coink\\Coink.Usuarios\\Src\\Coink.Usuarios.API\\UsuariosController.cs",
+              "RelativeToolTip": "Src\\Coink.Usuarios.API\\UsuariosController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAUwBkAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-11T16:37:48.301Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

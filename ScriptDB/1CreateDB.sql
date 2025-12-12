@@ -1,0 +1,1 @@
+﻿CREATE DATABASE coink_usuarios

@@ -1,0 +1,44 @@
+﻿using Coink.Usuarios.Application.Common;
+using Coink.Usuarios.Application.UseCases.Command;
+using FluentValidation;
+using MediatR;
+using Microsoft.AspNetCore.Mvc;
+
+[ApiController]
+[Route("api/[controller]")]
+public class UsuariosController : ControllerBase
+{
+    private readonly IMediator _mediator;
+
+    public UsuariosController(IMediator mediator)
+    {
+        _mediator = mediator;
+    }
+
+    [HttpPost("registrar")]
+    public async Task<IActionResult> Registrar([FromBody] RegisterUserCommand command)
+    {
+        try
+        {
+            var userId = await _mediator.Send(command);
+            return Ok(ApiResponse<int>.Success(userId));
+        }
+        catch (ValidationException ex)
+        {
+            // Agrupar errores de FluentValidation
+            var errors = ex.Errors
+                .GroupBy(e => e.PropertyName)
+                .ToDictionary(
+                    g => string.IsNullOrEmpty(g.Key) ? "General" : g.Key,
+                    g => g.Select(e => e.ErrorMessage).ToArray()
+                );
+
+            return BadRequest(ApiResponse<object>.Fail(errors, 400));
+        }
+        catch (Exception ex)
+        {
+            // Otros errores inesperados
+            return StatusCode(500, ApiResponse<object>.Fail(new { Message = ex.Message }, 500));
+        }
+    }
+}
