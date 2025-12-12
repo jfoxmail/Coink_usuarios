@@ -27,7 +27,6 @@ public class UsuariosController : ControllerBase
         }
         catch (ValidationException ex)
         {
-            // Agrupar errores de FluentValidation
             var errors = ex.Errors
                 .GroupBy(e => e.PropertyName)
                 .ToDictionary(
@@ -39,13 +38,12 @@ public class UsuariosController : ControllerBase
         }
         catch (Exception ex)
         {
-            // Otros errores inesperados
             return StatusCode(500, ApiResponse<object>.Fail(new { Message = ex.Message }, 500));
         }
     }
 
     [HttpGet("consultar")]
-    public async Task<IActionResult> Consultar([FromQuery] int id)    
+    public async Task<IActionResult> Consultar([FromQuery] int id)
     {
         try
         {
@@ -53,7 +51,7 @@ public class UsuariosController : ControllerBase
             return Ok(ApiResponse<UsuarioDto>.Success(userId));
         }
         catch (ValidationException ex)
-        {            
+        {
             var errors = ex.Errors
                 .GroupBy(e => e.PropertyName)
                 .ToDictionary(
@@ -65,7 +63,6 @@ public class UsuariosController : ControllerBase
         }
         catch (Exception ex)
         {
-            // Otros errores inesperados
             return StatusCode(500, ApiResponse<object>.Fail(new { Message = ex.Message }, 500));
         }
     }
@@ -91,7 +88,6 @@ public class UsuariosController : ControllerBase
         }
         catch (Exception ex)
         {
-            // Otros errores inesperados
             return StatusCode(500, ApiResponse<object>.Fail(new { Message = ex.Message }, 500));
         }
     }

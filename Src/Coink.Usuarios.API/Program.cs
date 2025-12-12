@@ -4,9 +4,6 @@ using Coink.Usuarios.Infrastructure.Persistence;
 using Coink.Usuarios.Infrastructure.Repositories;
 using FluentValidation;
 using FluentValidation.AspNetCore;
-using AutoMapper;
-using AutoMapper.Extensions.ExpressionMapping;
-
 
 var builder = WebApplication.CreateBuilder(args);
 

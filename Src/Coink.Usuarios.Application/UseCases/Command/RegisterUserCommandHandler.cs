@@ -3,8 +3,6 @@ using Coink.Usuarios.Application.UseCases.Command;
 using Coink.Usuarios.Domain.Entities;
 using FluentValidation;
 using MediatR;
-using System.Threading;
-using System.Threading.Tasks;
 
 public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, int>
 {
@@ -21,15 +19,15 @@ public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, i
 
     public async Task<int> Handle(RegisterUserCommand request, CancellationToken cancellationToken)
     {
-        // Validación asíncrona
+
         var validationResult = await _validator.ValidateAsync(request, cancellationToken);
         if (!validationResult.IsValid)
         {
-            // Lanza excepción si falla la validación
+
             throw new ValidationException(validationResult.Errors);
         }
 
-        // Crear usuario
+
         var usuario = new Usuario
         {
             Nombre = request.Nombre,
@@ -41,7 +39,7 @@ public class RegisterUserCommandHandler : IRequestHandler<RegisterUserCommand, i
             FechaCreacion = DateTime.UtcNow
         };
 
-        // Guardar y devolver Id
+
         return await _usuarioRepository.RegistrarAsync(usuario);
     }
 }

@@ -2,12 +2,6 @@
 using Coink.Usuarios.Application.UseCases.Command;
 using Coink.Usuarios.Domain.Entities;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coink.Usuarios.Test.Coink.Usuarios.Application
 {
@@ -59,7 +53,7 @@ namespace Coink.Usuarios.Test.Coink.Usuarios.Application
             var command = new RegisterUserCommand(
                 "Juan",
                 "123456789",
-                99, // País inexistente
+                99,
                 1,
                 1,
                 "Calle Falsa 123"

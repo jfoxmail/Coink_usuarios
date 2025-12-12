@@ -1,12 +1,8 @@
 ﻿using AutoMapper;
 using Coink.Usuarios.Application.Interfaces;
-using Coink.Usuarios.Application.UseCases.Command;
 using Coink.Usuarios.Application.UseCases.Query;
 using Coink.Usuarios.Domain.Entities;
-using FluentValidation;
 using MediatR;
-using System.Threading;
-using System.Threading.Tasks;
 
 public class ConsultUserQueryHandler : IRequestHandler<ConsultUserQuery, UsuarioDto>
 {

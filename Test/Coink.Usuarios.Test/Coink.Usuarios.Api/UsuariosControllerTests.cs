@@ -1,14 +1,8 @@
 ﻿using Coink.Usuarios.Application.Common;
 using Coink.Usuarios.Application.UseCases.Command;
-using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Coink.Usuarios.Test.Coink.Usuarios.Api
 {
@@ -58,7 +52,7 @@ namespace Coink.Usuarios.Test.Coink.Usuarios.Api
             var command = new RegisterUserCommand(
                 "Juan",
                 "123456789",
-                99, // País inexistente
+                99,
                 1,
                 1,
                 "Calle Falsa 123"
@@ -70,11 +64,11 @@ namespace Coink.Usuarios.Test.Coink.Usuarios.Api
             // Assert
             Assert.NotNull(result);
 
-            // Convertimos a ApiResponse<object>
+
             var response = result.Value as ApiResponse<object>;
             Assert.NotNull(response);
 
-            // Cast de Errors a Dictionary<string, string[]>
+
             var errors = response.Errors as Dictionary<string, string[]>;
             Assert.NotNull(errors);
             Assert.True(errors.ContainsKey("PaisId"));

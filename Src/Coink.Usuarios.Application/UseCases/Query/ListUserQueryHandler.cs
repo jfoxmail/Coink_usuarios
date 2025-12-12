@@ -1,12 +1,8 @@
 ﻿using AutoMapper;
 using Coink.Usuarios.Application.Interfaces;
-using Coink.Usuarios.Application.UseCases.Command;
 using Coink.Usuarios.Application.UseCases.Query;
 using Coink.Usuarios.Domain.Entities;
-using FluentValidation;
 using MediatR;
-using System.Threading;
-using System.Threading.Tasks;
 
 public class ListUserQueryHandler : IRequestHandler<ListUserQuery, List<UsuarioDto>>
 {
@@ -15,7 +11,7 @@ public class ListUserQueryHandler : IRequestHandler<ListUserQuery, List<UsuarioD
 
 
     public ListUserQueryHandler(
-        IUsuarioRepository usuarioRepository,        
+        IUsuarioRepository usuarioRepository,
         IMapper mapper)
     {
         _usuarioRepository = usuarioRepository;
